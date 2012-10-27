@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/nhan/src/coreapp/config/production'
+let g:netrw_dirhist_2='/Users/nhan/springsource/vfabric-tc-server-developer-2.7.0.RELEASE/spring-insight-instance/conf'
+let g:netrw_dirhist_3='/Users/nhan/src/jservices/scripts'
+let g:netrw_dirhist_4='/Users/nhan/src/jservices/thrift/common'
+let g:netrw_dirhist_5='/Users/nhan/src/jservices/core/src/main/deb/etc/init'
+let g:netrw_dirhist_6='/Users/nhan/.ssh'
+let g:netrw_dirhist_7='/Users/nhan/src/chef/cookbooks/php'
+let g:netrw_dirhist_8='/Users/nhan/src/coreapp/config/production'
+let g:netrw_dirhist_9='/Users/nhan/src/jservices/scripts/boilerplate'
