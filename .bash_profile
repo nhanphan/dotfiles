@@ -13,7 +13,7 @@ if [ -f `brew --prefix`/etc/bash_completion ]; then
 fi
 
 export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=128m"
-
+PATH=$PATH:$HOME/bin
 # Prefer US English and use UTF-8
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
