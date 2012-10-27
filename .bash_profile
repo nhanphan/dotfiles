@@ -5,9 +5,9 @@ for file in ~/.{extra,bash_prompt,exports,aliases,functions}; do
 done
 unset file
 
-source ~/nvm/nvm.sh # load node version manager
+#source ~/nvm/nvm.sh # load node version manager
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
+PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 if [ -f `brew --prefix`/etc/bash_completion ]; then
     . `brew --prefix`/etc/bash_completion
 fi

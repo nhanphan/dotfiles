@@ -2,7 +2,7 @@ alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
-
+alias sl='ls'
 alias sudo='sudo '
 
 # Detect which `ls` flavor is in use
