@@ -1,4 +1,4 @@
-Max's dotfiles
+Nhan's dotfiles, forked from Max
 ========
 
 My config and settings files for OS X
