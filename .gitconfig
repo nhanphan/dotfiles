@@ -45,3 +45,6 @@
 [url "git@github.com:nhanphan/"]
   insteadOf = "git://github.com/nhanphan/"
   
+[user]
+  name = Nhan Phan
+  email = nhan.phan@gmail.com
