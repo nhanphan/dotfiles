@@ -14,6 +14,7 @@ fi
 
 # List all files colorized in long format
 alias ls="ls ${colorflag}"
+alias l="ls"
 alias ll="ls -l"
 alias la="ls -la"
 
@@ -46,6 +47,7 @@ alias gl='git pull'
 alias gp='git push'
 alias gco='git checkout'
 alias git-cleanup='. ~/git-cleanup.sh'
+alias gsu='git submodule update'
 
 # Recursively delete `.DS_Store` files
 alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
@@ -65,11 +67,3 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 # postgres for rails dev
 alias pg-start='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias pg-stop='pg_ctl -D /usr/local/var/postgres stop -s -m fast'
-
-# programs
-alias s='open -a "Sublime Text 2"'
-alias mou='open -a "Mou"'
-alias ia='open -a "iA Writer"'
-
-# isocket
-alias idev='ssh idev.com'

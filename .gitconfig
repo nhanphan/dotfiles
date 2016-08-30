@@ -2,6 +2,7 @@
   co = checkout
   df = diff --color --color-words --abbrev
   lg = log --all --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%ci) %C(bold blue)<%an>%Creset' --abbrev-commit
+	unadd = reset HEAD
 [help]
 	autocorrect = 1
 [color]
